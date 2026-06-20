@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">ข้าวเหนียวปิ้ง - ความสุขที่ดื่มได้ อุ่นกายสบายใจในทุกหยด</title>
+    <meta name="description" content="สัมผัสนมสดแท้ 100% และขนมปังปิ้งเตาถ่านหอมกรุ่น ในบรรยากาศร้านไม้สุดอบอุ่น ที่ ข้าวเหนียวปิ้ง" data-i18n-attr="content|description">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar hidden-element">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="ข้าวเหนียวปิ้ง Logo">
+            </a>
+            <div class="nav-links">
+                <a href="#home" data-i18n="nav_home">หน้าแรก</a>
+                <a href="#atmosphere" data-i18n="nav_atmosphere">บรรยากาศร้าน</a>
+                <a href="#menu" data-i18n="nav_menu">เมนูแนะนำ</a>
+                <a href="#contact" data-i18n="nav_contact">ช่องทางสั่งซื้อ</a>
+            </div>
+            <div class="lang-switch">
+                <button id="lang-th" class="active">TH</button>
+                <span>|</span>
+                <button id="lang-en">EN</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content hidden-element">
+            <h1><span data-i18n="hero_title">ข้าวเหนียวปิ้ง</span><br><span class="subtitle" data-i18n="hero_subtitle">ความสุขที่ดื่มได้ อุ่นกายสบายใจในทุกหยด</span></h1>
+            <p data-i18n="hero_desc">สัมผัสนมสดแท้ 100% และขนมปังปิ้งเตาถ่านหอมกรุ่น ในบรรยากาศร้านไม้สุดอบอุ่น</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary pulse-effect" data-i18n="btn_delivery">สั่งเดลิเวอรี่เลย</a>
+                <a href="#contact" class="btn-outline" data-i18n="btn_contact">ช่องทางติดต่อ</a>
+            </div>
+        </div>
+        <div class="hero-image hidden-element">
+            <div class="floating-image">
+                <img src="บรรยากาศในร้าน/492549908_2527277360944944_1235157329857653281_n.jpg" alt="บรรยากาศร้านข้าวเหนียวปิ้ง">
+            </div>
+            <div class="floating-image-2">
+                 <img src="บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg" alt="บรรยากาศร้านข้าวเหนียวปิ้ง นั่งชิล">
+            </div>
+        </div>
+    </section>
+
+    <!-- Atmosphere Section -->
+    <section id="atmosphere" class="atmosphere">
+        <div class="section-header hidden-element">
+            <h2 data-i18n="atm_title">บรรยากาศร้าน</h2>
+            <p data-i18n="atm_desc">มุมนั่งชิล งานไม้ และแสงไฟสีส้ม ชวนผ่อนคลาย</p>
+        </div>
+        <div class="carousel-container hidden-element">
+            <div class="carousel-track">
+                <!-- Group 1 -->
+                <img class="carousel-img" src="บรรยากาศในร้าน/461514505_2344750892530926_8616067714999523478_n.jpg" alt="บรรยากาศ 1">
+                <img class="carousel-img" src="บรรยากาศในร้าน/492518988_2527277434278270_2006123765050258299_n.jpg" alt="บรรยากาศ 2">
+                <img class="carousel-img" src="บรรยากาศในร้าน/492549908_2527277360944944_1235157329857653281_n.jpg" alt="บรรยากาศ 3">
+                <img class="carousel-img" src="บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg" alt="บรรยากาศ 4">
+                <img class="carousel-img" src="บรรยากาศในร้าน/494147542_2529628654043148_5498278050551664507_n.jpg" alt="บรรยากาศ 5">
+                <!-- Group 2 for infinite scroll -->
+                <img class="carousel-img" src="บรรยากาศในร้าน/461514505_2344750892530926_8616067714999523478_n.jpg" alt="บรรยากาศ 1">
+                <img class="carousel-img" src="บรรยากาศในร้าน/492518988_2527277434278270_2006123765050258299_n.jpg" alt="บรรยากาศ 2">
+                <img class="carousel-img" src="บรรยากาศในร้าน/492549908_2527277360944944_1235157329857653281_n.jpg" alt="บรรยากาศ 3">
+                <img class="carousel-img" src="บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg" alt="บรรยากาศ 4">
+                <img class="carousel-img" src="บรรยากาศในร้าน/494147542_2529628654043148_5498278050551664507_n.jpg" alt="บรรยากาศ 5">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="section-header hidden-element">
+            <h2 data-i18n="menu_title">เมนูแนะนำ</h2>
+            <p data-i18n="menu_desc">อร่อยฟินกับเมนูซิกเนเจอร์ของเรา</p>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/44318093_775478239458207_3282462492936110080_n.jpg" alt="ปังปิ้งเนยนม ช็อคโกแลต">
+                    <div class="price-overlay">฿45</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m1_name">ปังปิ้งเนยนม ช็อคโกแลต</h3>
+                    <p data-i18n="m1_desc">หอมหวาน ละมุนลิ้น</p>
+                </div>
+            </div>
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/44342331_775477832791581_5534039281854578688_n.jpg" alt="นมสดร้อน">
+                    <div class="price-overlay">฿35</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m2_name">นมสดร้อน</h3>
+                    <p data-i18n="m2_desc">นมแท้ 100% หอมมัน</p>
+                </div>
+            </div>
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/492412841_2527023350970345_4918805182070823305_n.jpg" alt="ปังเย็น">
+                    <div class="price-overlay">฿69</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m3_name">ปังเย็นนมสด</h3>
+                    <p data-i18n="m3_desc">ชื่นใจ คลายร้อน</p>
+                </div>
+            </div>
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/492846847_2529634777375869_7035050521733813971_n.jpg" alt="เมนูจับคู่ ปังเย็นและขนมปังปิ้ง">
+                    <div class="price-overlay">฿55</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m4_name">เมนูจับคู่ ปังเย็นและขนมปังปิ้ง</h3>
+                    <p data-i18n="m4_desc">เข้ากันสุดๆ อร่อยลงตัว</p>
+                </div>
+            </div>
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/492942909_2528367987502548_811911000064678643_n.jpg" alt="เมนูของทอด">
+                    <div class="price-overlay">฿40</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m5_name">เมนูของทอด</h3>
+                    <p data-i18n="m5_desc">กรอบอร่อย ทานเพลิน</p>
+                </div>
+            </div>
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/493473120_2528534147485932_1438962868243656304_n.jpg" alt="นมชมพูเย็น">
+                    <div class="price-overlay">฿35</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m6_name">นมชมพูเย็น</h3>
+                    <p data-i18n="m6_desc">หวานหอม ชื่นใจ</p>
+                </div>
+            </div>
+            <div class="menu-card hidden-element">
+                <div class="card-img">
+                    <img src="เมนูร้าน/493540617_2527023530970327_8570458719034524791_n.jpg" alt="นมสดคาราเมล">
+                    <div class="price-overlay">฿50</div>
+                </div>
+                <div class="card-content">
+                    <h3 data-i18n="m7_name">นมสดคาราเมล</h3>
+                    <p data-i18n="m7_desc">หวานละมุน กลมกล่อม</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-card hidden-element">
+            <h2 data-i18n="contact_hours_title">เวลาเปิด-ปิด</h2>
+            <p class="hours"><i class="far fa-clock"></i> <span data-i18n="contact_hours">เปิดบริการทุกวัน 16:00 - 23:00 น.</span></p>
+            
+            <div class="cta-buttons">
+                <a href="#" class="btn-primary cta-main"><i class="fas fa-motorcycle"></i> <span data-i18n="btn_delivery_full">สั่งเดลิเวอรี่</span></a>
+                <a href="#" class="btn-secondary cta-line"><i class="fab fa-line"></i> <span data-i18n="btn_line">แอด LINE ร้าน</span></a>
+                <a href="https://web.facebook.com/premnomsod" target="_blank" class="btn-secondary cta-facebook"><i class="fab fa-facebook"></i> <span data-i18n="btn_facebook">ติดตาม Facebook ร้าน</span></a>
+                <a href="#" class="btn-tertiary cta-map"><i class="fas fa-map-marker-alt"></i> <span data-i18n="btn_map">ดูแผนที่ร้านบน Google Maps</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://web.facebook.com/premnomsod" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p data-i18n="footer_copy">&copy; 2026 ข้าวเหนียวปิ้ง สงวนลิขสิทธิ์</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
