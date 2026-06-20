@@ -74,6 +74,38 @@ const translations = {
         btn_facebook: "Follow our Facebook",
         btn_map: "View on Google Maps",
         footer_copy: "&copy; 2026 Khao Niao Ping. All rights reserved."
+    },
+    jp: {
+        nav_home: "ホーム",
+        nav_atmosphere: "お店の雰囲気",
+        nav_menu: "おすすめ",
+        nav_contact: "ご注文方法",
+        hero_title: "ข้าวเหนียวปิ้ง",
+        hero_subtitle: "飲める幸せ、心も体も温まる一滴",
+        btn_delivery: "デリバリー注文",
+        section_atmosphere: "お店の雰囲気",
+        section_menu: "おすすめメニュー",
+        m1_name: "パンダンカスタードスチームパン",
+        m1_desc: "柔らかく、香り高い",
+        m2_name: "フレッシュミルク",
+        m2_desc: "100%本物の牛乳、濃厚",
+        m3_name: "フレッシュミルクかき氷",
+        m3_desc: "爽やかで涼しい",
+        m4_name: "かき氷＆トーストコンボ",
+        m4_desc: "絶妙な組み合わせ",
+        m5_name: "揚げ物メニュー",
+        m5_desc: "サクサクで美味しい",
+        m6_name: "アイスピンクミルク",
+        m6_desc: "甘くて香りがよく爽やか",
+        m7_name: "キャラメルフレッシュミルク",
+        m7_desc: "なめらかでまろやかな甘さ",
+        contact_hours_title: "営業時間",
+        contact_hours: "毎日営業 16:00 - 23:00",
+        btn_delivery_full: "デリバリー注文",
+        btn_line: "LINEを追加",
+        btn_facebook: "Facebookをフォロー",
+        btn_map: "Googleマップで見る",
+        footer_copy: "&copy; 2026 Khao Niao Ping. All rights reserved."
     }
 };
 
@@ -85,6 +117,7 @@ function setLanguage(lang) {
     
     document.getElementById('lang-th').classList.toggle('active', lang === 'th');
     document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+    document.getElementById('lang-jp').classList.toggle('active', lang === 'jp');
     
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
@@ -110,6 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Language Switcher Initialization
     document.getElementById('lang-th').addEventListener('click', () => setLanguage('th'));
     document.getElementById('lang-en').addEventListener('click', () => setLanguage('en'));
+    document.getElementById('lang-jp').addEventListener('click', () => setLanguage('jp'));
     setLanguage(currentLang);
 
     // Scroll Animation Observer (Fade in and slide up)
